@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244CB8E11D60A52900BD593B /* carPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CB8E01D60A52900BD593B /* carPreviewTableViewCell.swift */; };
+		244CB8E61D60C1DB00BD593B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244CB8E81D60C1DB00BD593B /* Localizable.strings */; };
+		246A58C31D5DDD8600006AD8 /* CarCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A58C21D5DDD8600006AD8 /* CarCreationViewController.swift */; };
+		246A58C51D5DEC8600006AD8 /* CarCreationImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A58C41D5DEC8600006AD8 /* CarCreationImageViewCell.swift */; };
+		246A58C71D5DEC9A00006AD8 /* CarCreationNewImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A58C61D5DEC9A00006AD8 /* CarCreationNewImageViewCell.swift */; };
+		246A58C91D5DECB400006AD8 /* CarCreationImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246A58C81D5DECB400006AD8 /* CarCreationImageViewCell.xib */; };
+		246A58CB1D5DECC900006AD8 /* CarCreationNewImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246A58CA1D5DECC900006AD8 /* CarCreationNewImageViewCell.xib */; };
+		24F137B21D5C69C400ECA3F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137B11D5C69C400ECA3F3 /* AppDelegate.swift */; };
+		24F137B51D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24F137B31D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodeld */; };
+		24F137B71D5C69C400ECA3F3 /* CarWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137B61D5C69C400ECA3F3 /* CarWeatherViewController.swift */; };
+		24F137B91D5C69C400ECA3F3 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137B81D5C69C400ECA3F3 /* CarInfoViewController.swift */; };
+		24F137BC1D5C69C400ECA3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F137BA1D5C69C400ECA3F3 /* Main.storyboard */; };
+		24F137BE1D5C69C400ECA3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F137BD1D5C69C400ECA3F3 /* Assets.xcassets */; };
+		24F137C11D5C69C400ECA3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F137BF1D5C69C400ECA3F3 /* LaunchScreen.storyboard */; };
+		24F137D21D5C708800ECA3F3 /* CarPhoto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137CC1D5C708800ECA3F3 /* CarPhoto+CoreDataProperties.swift */; };
+		24F137D31D5C708800ECA3F3 /* CarPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137CD1D5C708800ECA3F3 /* CarPhoto.swift */; };
+		24F137D41D5C708800ECA3F3 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137CE1D5C708800ECA3F3 /* Car+CoreDataProperties.swift */; };
+		24F137D51D5C708800ECA3F3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137CF1D5C708800ECA3F3 /* Car.swift */; };
+		24F137D61D5C708800ECA3F3 /* Weather+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137D01D5C708800ECA3F3 /* Weather+CoreDataProperties.swift */; };
+		24F137D71D5C708800ECA3F3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F137D11D5C708800ECA3F3 /* Weather.swift */; };
+		24F137DB1D5C8D8C00ECA3F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F137DA1D5C8D8C00ECA3F3 /* CoreLocation.framework */; };
+		24F137E01D5C920900ECA3F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F137DF1D5C920900ECA3F3 /* MapKit.framework */; };
+		6C364BEE7BB74EDF3E4462E7 /* Pods_SkywellCarWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7C64964C4A1E4E761B7A31 /* Pods_SkywellCarWeather.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244CB8E01D60A52900BD593B /* carPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carPreviewTableViewCell.swift; sourceTree = "<group>"; };
+		244CB8E21D60C1A100BD593B /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244CB8E31D60C1A100BD593B /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244CB8E71D60C1DB00BD593B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		244CB8E91D60C1E100BD593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		246A58C21D5DDD8600006AD8 /* CarCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCreationViewController.swift; sourceTree = "<group>"; };
+		246A58C41D5DEC8600006AD8 /* CarCreationImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCreationImageViewCell.swift; sourceTree = "<group>"; };
+		246A58C61D5DEC9A00006AD8 /* CarCreationNewImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCreationNewImageViewCell.swift; sourceTree = "<group>"; };
+		246A58C81D5DECB400006AD8 /* CarCreationImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarCreationImageViewCell.xib; sourceTree = "<group>"; };
+		246A58CA1D5DECC900006AD8 /* CarCreationNewImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarCreationNewImageViewCell.xib; sourceTree = "<group>"; };
+		24F137AE1D5C69C400ECA3F3 /* SkywellCarWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkywellCarWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F137B11D5C69C400ECA3F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24F137B41D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkywellCarWeather.xcdatamodel; sourceTree = "<group>"; };
+		24F137B61D5C69C400ECA3F3 /* CarWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWeatherViewController.swift; sourceTree = "<group>"; };
+		24F137B81D5C69C400ECA3F3 /* CarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		24F137BB1D5C69C400ECA3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24F137BD1D5C69C400ECA3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24F137C01D5C69C400ECA3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24F137C21D5C69C400ECA3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F137CC1D5C708800ECA3F3 /* CarPhoto+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CarPhoto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		24F137CD1D5C708800ECA3F3 /* CarPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPhoto.swift; sourceTree = "<group>"; };
+		24F137CE1D5C708800ECA3F3 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		24F137CF1D5C708800ECA3F3 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		24F137D01D5C708800ECA3F3 /* Weather+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Weather+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		24F137D11D5C708800ECA3F3 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		24F137DA1D5C8D8C00ECA3F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24F137DF1D5C920900ECA3F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		959963FD87456A59F4C45047 /* Pods-SkywellCarWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkywellCarWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkywellCarWeather/Pods-SkywellCarWeather.release.xcconfig"; sourceTree = "<group>"; };
+		9BBCB7D0F633F4F5EB3244E3 /* Pods-SkywellCarWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkywellCarWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkywellCarWeather/Pods-SkywellCarWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		BB7C64964C4A1E4E761B7A31 /* Pods_SkywellCarWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkywellCarWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F137AB1D5C69C400ECA3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F137E01D5C920900ECA3F3 /* MapKit.framework in Frameworks */,
+				24F137DB1D5C8D8C00ECA3F3 /* CoreLocation.framework in Frameworks */,
+				6C364BEE7BB74EDF3E4462E7 /* Pods_SkywellCarWeather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D1329C29EDF966760CE518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F137DF1D5C920900ECA3F3 /* MapKit.framework */,
+				24F137DA1D5C8D8C00ECA3F3 /* CoreLocation.framework */,
+				BB7C64964C4A1E4E761B7A31 /* Pods_SkywellCarWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24F137A51D5C69C400ECA3F3 = {
+			isa = PBXGroup;
+			children = (
+				24F137B01D5C69C400ECA3F3 /* SkywellCarWeather */,
+				24F137AF1D5C69C400ECA3F3 /* Products */,
+				389B388CF6132029D4639909 /* Pods */,
+				14D1329C29EDF966760CE518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24F137AF1D5C69C400ECA3F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F137AE1D5C69C400ECA3F3 /* SkywellCarWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F137B01D5C69C400ECA3F3 /* SkywellCarWeather */ = {
+			isa = PBXGroup;
+			children = (
+				24F137CA1D5C6C7200ECA3F3 /* Controller */,
+				24F137CB1D5C6C7C00ECA3F3 /* View */,
+				24F137C91D5C6C5D00ECA3F3 /* Model */,
+				24F137C81D5C6C4700ECA3F3 /* Supporting Files */,
+			);
+			path = SkywellCarWeather;
+			sourceTree = "<group>";
+		};
+		24F137C81D5C6C4700ECA3F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F137B11D5C69C400ECA3F3 /* AppDelegate.swift */,
+				24F137BD1D5C69C400ECA3F3 /* Assets.xcassets */,
+				24F137BF1D5C69C400ECA3F3 /* LaunchScreen.storyboard */,
+				24F137C21D5C69C400ECA3F3 /* Info.plist */,
+				244CB8E81D60C1DB00BD593B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24F137C91D5C6C5D00ECA3F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24F137CC1D5C708800ECA3F3 /* CarPhoto+CoreDataProperties.swift */,
+				24F137CD1D5C708800ECA3F3 /* CarPhoto.swift */,
+				24F137CE1D5C708800ECA3F3 /* Car+CoreDataProperties.swift */,
+				24F137CF1D5C708800ECA3F3 /* Car.swift */,
+				24F137D01D5C708800ECA3F3 /* Weather+CoreDataProperties.swift */,
+				24F137D11D5C708800ECA3F3 /* Weather.swift */,
+				24F137B31D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24F137CA1D5C6C7200ECA3F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24F137B61D5C69C400ECA3F3 /* CarWeatherViewController.swift */,
+				24F137B81D5C69C400ECA3F3 /* CarInfoViewController.swift */,
+				246A58C21D5DDD8600006AD8 /* CarCreationViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24F137CB1D5C6C7C00ECA3F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24F137BA1D5C69C400ECA3F3 /* Main.storyboard */,
+				246A58C41D5DEC8600006AD8 /* CarCreationImageViewCell.swift */,
+				246A58C81D5DECB400006AD8 /* CarCreationImageViewCell.xib */,
+				246A58C61D5DEC9A00006AD8 /* CarCreationNewImageViewCell.swift */,
+				246A58CA1D5DECC900006AD8 /* CarCreationNewImageViewCell.xib */,
+				244CB8E01D60A52900BD593B /* carPreviewTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		389B388CF6132029D4639909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BBCB7D0F633F4F5EB3244E3 /* Pods-SkywellCarWeather.debug.xcconfig */,
+				959963FD87456A59F4C45047 /* Pods-SkywellCarWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F137AD1D5C69C400ECA3F3 /* SkywellCarWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F137C51D5C69C400ECA3F3 /* Build configuration list for PBXNativeTarget "SkywellCarWeather" */;
+			buildPhases = (
+				DCF03A0B8E2E826FD9F428C9 /* [CP] Check Pods Manifest.lock */,
+				24F137AA1D5C69C400ECA3F3 /* Sources */,
+				24F137AB1D5C69C400ECA3F3 /* Frameworks */,
+				24F137AC1D5C69C400ECA3F3 /* Resources */,
+				1F7D7B2C060A501DEF9270FA /* [CP] Embed Pods Frameworks */,
+				BE5C9C72D55BFEDDBEAE1E0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkywellCarWeather;
+			productName = SkywellCarWeather;
+			productReference = 24F137AE1D5C69C400ECA3F3 /* SkywellCarWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F137A61D5C69C400ECA3F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = company.com;
+				TargetAttributes = {
+					24F137AD1D5C69C400ECA3F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 24F137A91D5C69C400ECA3F3 /* Build configuration list for PBXProject "SkywellCarWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 24F137A51D5C69C400ECA3F3;
+			productRefGroup = 24F137AF1D5C69C400ECA3F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F137AD1D5C69C400ECA3F3 /* SkywellCarWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F137AC1D5C69C400ECA3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246A58CB1D5DECC900006AD8 /* CarCreationNewImageViewCell.xib in Resources */,
+				244CB8E61D60C1DB00BD593B /* Localizable.strings in Resources */,
+				24F137C11D5C69C400ECA3F3 /* LaunchScreen.storyboard in Resources */,
+				24F137BE1D5C69C400ECA3F3 /* Assets.xcassets in Resources */,
+				246A58C91D5DECB400006AD8 /* CarCreationImageViewCell.xib in Resources */,
+				24F137BC1D5C69C400ECA3F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7D7B2C060A501DEF9270FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkywellCarWeather/Pods-SkywellCarWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5C9C72D55BFEDDBEAE1E0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkywellCarWeather/Pods-SkywellCarWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF03A0B8E2E826FD9F428C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F137AA1D5C69C400ECA3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F137B21D5C69C400ECA3F3 /* AppDelegate.swift in Sources */,
+				24F137B51D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodeld in Sources */,
+				24F137D51D5C708800ECA3F3 /* Car.swift in Sources */,
+				24F137D41D5C708800ECA3F3 /* Car+CoreDataProperties.swift in Sources */,
+				24F137D71D5C708800ECA3F3 /* Weather.swift in Sources */,
+				244CB8E11D60A52900BD593B /* carPreviewTableViewCell.swift in Sources */,
+				246A58C71D5DEC9A00006AD8 /* CarCreationNewImageViewCell.swift in Sources */,
+				24F137B71D5C69C400ECA3F3 /* CarWeatherViewController.swift in Sources */,
+				246A58C51D5DEC8600006AD8 /* CarCreationImageViewCell.swift in Sources */,
+				24F137D31D5C708800ECA3F3 /* CarPhoto.swift in Sources */,
+				24F137D21D5C708800ECA3F3 /* CarPhoto+CoreDataProperties.swift in Sources */,
+				24F137B91D5C69C400ECA3F3 /* CarInfoViewController.swift in Sources */,
+				246A58C31D5DDD8600006AD8 /* CarCreationViewController.swift in Sources */,
+				24F137D61D5C708800ECA3F3 /* Weather+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		244CB8E81D60C1DB00BD593B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244CB8E71D60C1DB00BD593B /* ru */,
+				244CB8E91D60C1E100BD593B /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		24F137BA1D5C69C400ECA3F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F137BB1D5C69C400ECA3F3 /* Base */,
+				244CB8E21D60C1A100BD593B /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24F137BF1D5C69C400ECA3F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F137C01D5C69C400ECA3F3 /* Base */,
+				244CB8E31D60C1A100BD593B /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F137C31D5C69C400ECA3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24F137C41D5C69C400ECA3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F137C61D5C69C400ECA3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBCB7D0F633F4F5EB3244E3 /* Pods-SkywellCarWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkywellCarWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.SkywellCarWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24F137C71D5C69C400ECA3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959963FD87456A59F4C45047 /* Pods-SkywellCarWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkywellCarWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.SkywellCarWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F137A91D5C69C400ECA3F3 /* Build configuration list for PBXProject "SkywellCarWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F137C31D5C69C400ECA3F3 /* Debug */,
+				24F137C41D5C69C400ECA3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F137C51D5C69C400ECA3F3 /* Build configuration list for PBXNativeTarget "SkywellCarWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F137C61D5C69C400ECA3F3 /* Debug */,
+				24F137C71D5C69C400ECA3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24F137B31D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24F137B41D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodel */,
+			);
+			currentVersion = 24F137B41D5C69C400ECA3F3 /* SkywellCarWeather.xcdatamodel */;
+			path = SkywellCarWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24F137A61D5C69C400ECA3F3 /* Project object */;
+}
